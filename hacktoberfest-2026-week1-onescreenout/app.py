@@ -35,13 +35,13 @@ The mission must:
 - end by telling the user to pocket the phone.
 
 Return ONLY valid JSON with exactly these keys:
-{
+{{
   "title": "max 6 words",
   "mission": "one sentence, max 22 words",
   "steps": ["short step 1", "short step 2", "short step 3"],
   "notice": "one sensory thing to notice",
   "safety": "one short safety reminder"
-}
+}}
 """.strip()
 
 
